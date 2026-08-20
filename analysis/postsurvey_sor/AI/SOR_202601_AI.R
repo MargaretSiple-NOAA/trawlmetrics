@@ -20,7 +20,7 @@ min_height_pings = 50
 convert_marport_to_netmind = FALSE
 fill_method = "goa"
 create_user = "SIPLEM" # Change to your username
-delete_existing = FALSE # If TRUE, will replace *temporary* SOR files with the new ones you generate. Only works if you have permission for the RACE_DATA.EDIT_IMPORT_SOR table (all 3 supervisors have it).
+delete_existing = TRUE # If TRUE, will replace *temporary* SOR files with the new ones you generate. Only works if you have permission for the RACE_DATA.EDIT_IMPORT_SOR table (all 3 supervisors have it).
 
 cruise_idnum1 = 779
 vessel1 = 176
